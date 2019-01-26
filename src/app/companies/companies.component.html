@@ -1,0 +1,48 @@
+<div class="sidebar">
+<h2>Companies</h2>
+  <span id="az" class="AZ" (click)="sortASC()">-ASC</span>  <span id="za" class="DESC" (click)="sortDSC()">-DESC</span>
+<div class="company-length">{{companies.length}} - Records</div><button class="add-button" title="add company" (click)="addCompany()">+</button>
+<ul class="companies">
+  <li *ngFor="let company of companies"  (click)="onSelect(company)">
+    <div>
+      <label class="co-id">id:
+        <input [(ngModel)]="company.id" placeholder="id">
+      </label>
+    </div>
+    <div>
+      <label class="co-name">name:
+        <input [(ngModel)]="company.name" placeholder="name">
+      </label>
+    </div>
+    <label class="co-status">status:
+      <select [(ngModel)]="company.status" placeholder="status">
+        <option >researching</option>
+        <option >pending approval</option>
+        <option >approved</option>
+        <option >declined</option>
+      </select>
+     </label>
+
+
+    <label class="co-info">companyInfo:
+      <input [(ngModel)]="company.companyInfo" placeholder="companyInfo">
+    </label>
+    <label class="co-contacts">keyContacts:
+      <input [(ngModel)]="company.keyContacts" placeholder="keyContacts">
+    </label>
+    <label class="co-perf">financialPerformance:
+      <select [(ngModel)]="company.financialPerformance" placeholder="performance">
+        <option >poor</option>
+        <option >good</option>
+        <option >excellent</option>
+        <option >outstanding</option>
+      </select>
+    </label>
+    <button class="delete-button" title="delete company" (click)="removeCompany(company.id)">-</button>
+  </li>
+</ul>
+</div>
+
+
+
+

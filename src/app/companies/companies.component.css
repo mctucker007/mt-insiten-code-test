@@ -1,0 +1,193 @@
+.selected {
+  background-color: #CFD8DC !important;
+  color: white;
+}
+.companies {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 33%;
+  float: left;
+}
+.companies li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 4em;
+  border-radius: 4px;
+  padding: 10px;
+  border-top: 2px solid #22ABFC;
+  right: 26px;
+}
+.companies li.selected:hover {
+  background-color: #BBD8DC !important;
+  color: white;
+
+}
+.companies li {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+  height: 200px !important;
+}
+.companies li:active {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+
+}
+.companies .text {
+  position: relative;
+  top: -3px;
+}
+.companies .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #607D8B;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+.co-id {
+  float: left;
+  display: block;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.co-id input{
+  width: 50px;
+}
+.co-name {
+  float: left;
+  display: block;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.co-status {
+  float: left;
+  display: block;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.co-status select {
+  background-color: #FFFFFF;
+  border-radius: 0;
+}
+.co-info {
+  float: left;
+  display: block;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.co-info input{
+  width: 223px;
+}
+.co-contacts {
+  float: left;
+  display: block;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.co-perf{
+  float: left;
+  display: block;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+h2 {
+  text-align: left;
+  color: #3A3B3C;
+  margin-left: 127px;
+
+}
+.company-length {
+  float: left;
+  margin-left: 35px;
+  margin-top: -18px;
+}
+.add-button {
+  background-color: #22ABFC;
+  width: 28px;
+  height: 28px;
+  color: #ffffff;
+  border-radius: 3px;
+  position: relative;
+  float: left;
+  top: -23px;
+  left: 415px;
+  cursor: pointer;
+}
+.delete-button {
+  background-color: #B22222;
+  width: 28px;
+  height: 28px;
+  color: #ffffff;
+  border-radius: 3px;
+  position: relative;
+  float: right;
+  top: 19px;
+  cursor: pointer;
+}
+.AZ {
+  position: relative;
+  float: left;
+  top: -18px;
+  left: 250px;
+  cursor: pointer;
+}
+
+.DESC{
+  position: relative;
+  float: left;
+  top: -18px;
+  left: 300px;
+  cursor: pointer;
+}
+.azSelected {
+  color: #22ABFC;
+  position: relative;
+  float: left;
+  top: -18px;
+  left: 250px;
+  cursor: pointer;
+}
+.zaSelected {
+  color: #22ABFC;
+  position: relative;
+  float: left;
+  top: -18px;
+  left: 300px;
+  cursor: pointer;
+}
+.zaNotSelected {
+  color: #888;
+  position: relative;
+  float: left;
+  top: -18px;
+  left: 300px;
+  cursor: pointer;
+}
+.azNotSelected {
+  color: #888;
+  position: relative;
+  float: left;
+  top: -18px;
+  left: 250px;
+  cursor: pointer;
+}
+
